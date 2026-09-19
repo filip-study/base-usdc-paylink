@@ -74,6 +74,11 @@ After someone says they paid:
 python3 tipcheck.py 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b
 ```
 
+## Related tools
+
+- [opire-open-scan](https://github.com/filip-study/opire-open-scan) (Pete Jr.)
+- [bounty-freshness](https://github.com/filip-study/bounty-freshness) (Pete Jr.)
+
 ## License
 
 MIT — see [`LICENSE`](./LICENSE).
