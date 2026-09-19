@@ -24,6 +24,7 @@ Requirements: **Python 3.9+**, network only when creating Shieldz tip/unlock. Li
 | `tip` | Create/reuse a Shieldz tip jar for an address |
 | `unlock` | Create a Shieldz pay-to-unlock from a file |
 | `readme-block` | Print a paste-ready README money section |
+| `pay_card.py` | Emit a shareable HTML pay card (EIP-681 + MetaMask + tip/unlock) |
 
 ### Examples
 
@@ -55,6 +56,13 @@ python3 paylink.py unlock \
 
 If `paylink` saved you from hand-rolling EIP-681 strings, tip a coffee — or unlock Nancy's fuller receive pack (README blocks, unlock recipes, ledger stub).
 
+### HTML pay card
+
+```bash
+python3 pay_card.py --amount 5 -o pay.html
+python3 test_pay_card.py
+```
+
 ## How EIP-681 links work
 
 ```
@@ -78,6 +86,7 @@ python3 tipcheck.py 0xbAd41cF0f0d5442f9A53630F8081BFd257DA019b
 
 - [opire-open-scan](https://github.com/filip-study/opire-open-scan) (Pete Jr.)
 - [bounty-freshness](https://github.com/filip-study/bounty-freshness) (Pete Jr.)
+- [gh-bounty-open-scan](https://github.com/filip-study/gh-bounty-open-scan) (Pete Jr.)
 
 ## License
 
